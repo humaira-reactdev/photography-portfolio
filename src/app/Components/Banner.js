@@ -6,7 +6,7 @@ const Banner = () => {
       {/* Background Sections */}
       <div className="flex w-full h-full">
         <div className="bg-gray-500 w-[735px] h-[960px]">
-        <div className="text-gray-800 ml-[50px]">
+        <div className="text-white ml-[50px]">
            <h2 className="font-bold text-2xl uppercase tracking-wide mb-2 mt-[800px]">Elliana Mary</h2>
            <p className="text-lg">Professional Photographer</p>
          </div>
@@ -24,8 +24,11 @@ const Banner = () => {
         <p className="text-gray-200 mt-4 text-[18px] w-[450px] mx-auto">
           Distinctively re-engineer process-centric growth strategies without granular process improvements.
         </p>
+        <div className='grey bg-slate-500  w-[470] h-[300px] absolute top-[120%] left-[10%]'>
+        </div>
+          <img src="/images/circulartext.png" alt="Logo" className="absolute w-[160px] h-[160px] top-[135%] right-[70%]" />
         {/* Social Media Links */}
-         <div className="absolute left-[98%] top-[80%] transform -translate-y-1/2 space-y-8 text-gray-400 rotate-90">
+         <div className="absolute left-[98%] top-[120%] transform -translate-y-1/2 space-y-8 text-gray-400 rotate-90">
            <a href="#linkedin" className="hover:text-white mb-8">LinkedIn</a>
            <a href="#instagram" className="hover:text-white mb-8">Instagram</a>
            <a href="#twitter" className="hover:text-white mb-8">Twitter</a>
